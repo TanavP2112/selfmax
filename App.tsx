@@ -77,7 +77,12 @@ function App(): React.JSX.Element {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
+<<<<<<< HEAD
             Edit <Text style={styles.highlight}>App.tsx</Text> Hi
+=======
+            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
+            screen and then come back to see your edits
+>>>>>>> 3a46ba46 (fixed bug)
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
